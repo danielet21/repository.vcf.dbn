@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.vcf.dbn" version="1.0.0" name="Valencia CF DBN Repository" provider-name="DBN">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Valencia CF DBN Repository">
+        <info compressed="false">https://danielet21.github.io/repository.vcf.dbn/addons.xml</info>
+        <checksum>https://danielet21.github.io/repository.vcf.dbn/addons.xml.md5</checksum>
+        <datadir zip="true">https://danielet21.github.io/repository.vcf.dbn/zips</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="es">Repositorio oficial del skin Valencia CF DBN</summary>
+        <description lang="es">Repositorio con el skin Valencia CF DBN y sus addons para Kodi 21 (Omega)</description>
+        <platform>all</platform>
+    </extension>
+</addon>
